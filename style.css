@@ -21,12 +21,12 @@
 }
 
 .saluteImgContainer {
-  flex: 1;
+  flex: .8 1 0%;
 }
 
 .saluteText {
   color: #333;
-  font-size: 60vw;
+  font-size: 55vw;
   cursor: default;
 }
 
@@ -40,10 +40,10 @@
 }
 
 .name {
-  font-size: 20vw;
+  font-size: 15vw;
   color: #333;
   cursor: default;
-  text-align: center;
+  /* text-align: center; */
   line-height: 100vh;
 }
 
@@ -52,10 +52,10 @@
 }
 
 .dark {
-  background: url("./img/bg1.png");
+  background: url("./images/bg1.png");
 }
 .purple {
-  background: rebeccapurple url("./img/bg2.png");
+  background: rebeccapurple url("./images/bg2.png");
 }
 
 .jobTitle {
