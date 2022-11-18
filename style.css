@@ -4,6 +4,10 @@
   font-family: "Open Sans", sans-serif;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 .container {
   background-color: #111;
   overflow: hidden;
@@ -21,12 +25,12 @@
 }
 
 .saluteImgContainer {
-  flex: .8 1 0%;
+  flex: .82 1 0%;
 }
 
 .saluteText {
   color: #333;
-  font-size: 55vw;
+  font-size: 60vw;
   cursor: default;
 }
 
@@ -239,9 +243,9 @@
   background-color: #063f24;
 }
 
-.githubSm {
+/* .githubSm {
   display: none;
-}
+} */
 
 @media screen and (max-width: 1024px) {
   .projects {
