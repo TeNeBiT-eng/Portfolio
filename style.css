@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   list-style: none;
+  text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -125,7 +126,7 @@ body::-webkit-scrollbar {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .projectTitle {
@@ -249,6 +250,10 @@ body::-webkit-scrollbar {
   background-color: #063f24;
 }
 
+a h2 {
+  color: #555;
+}
+
 /* .githubSm {
   display: none;
 } */
@@ -265,6 +270,10 @@ body::-webkit-scrollbar {
   }
   .project:nth-child(2n) {
     flex-direction: column;
+  }
+
+  .projectDetail {
+    align-items: center;
   }
 
   .phone,
