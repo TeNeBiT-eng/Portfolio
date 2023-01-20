@@ -1,6 +1,8 @@
 * {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
+  list-style: none;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -84,7 +86,7 @@ body::-webkit-scrollbar {
 .project {
   display: flex;
   align-items: center;
-  gap: 100px;
+  gap: 60px;
   height: 100vh;
   overflow: hidden;
 }
@@ -138,6 +140,10 @@ body::-webkit-scrollbar {
   line-height: 40px;
 }
 
+.projectDesc ul li {
+  color: #555;
+}
+
 .projectButton {
   padding: 10px 20px;
   background-color: transparent;
@@ -155,7 +161,7 @@ body::-webkit-scrollbar {
   position: absolute;
   top: 0;
   left: -100%;
-  transition: 1s all;
+  transition: .6s all;
   display: flex;
   align-items: center;
   justify-content: center;
